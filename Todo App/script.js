@@ -1,3 +1,4 @@
+/*Decleration of variables*/
 const taskForm = document.querySelector('#task_form');
 const taskInput = document.querySelector('#task_input');
 const taskListUL = document.querySelector('#task_list');
