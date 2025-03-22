@@ -1,0 +1,52 @@
+:root {  
+    /* CSS HEX */
+    --black: #000000ff;
+    --gray: #807d7fff;
+    --french-gray: #bfbbbfff;
+    --snow: #fffcffff;
+
+    --pistachio: #b2df78ff;
+    --light-sky-blue: #80caf4ff;
+    --picton-blue: #55b9f1ff;
+    --picton-blue-2: #2ba7edff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: var(--black);
+    color: var(--snow);
+}
+
+.logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+}
+.logo a {
+    position: relative;
+
+}
+
+.main-header {
+    display: inline-block;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+}
+
+.main-header__contents {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: inline-block;
+    align-items: center;
+}
