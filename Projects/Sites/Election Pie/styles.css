@@ -9,6 +9,8 @@
     --c2: #e74f4f;
     --c3: #fc921f;
     --c4: #149ece;
+    --w: #fff;
+    --trans: rgba(0,0,0,0.1);
   
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -23,7 +25,14 @@
     margin-inline: auto;
     text-align: center;
   }
-  
+  .buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 80px;
+  }
+
   .title {
     display: flex;
     flex-direction: column;
@@ -39,7 +48,7 @@
     margin-block-end: 3rem;
   }
   
-  .charts {
+  .pie_chart_1 {
     display: flex;
     place-content: center;
     flex-flow: wrap;
@@ -51,16 +60,17 @@
     max-width: 325px;
     aspect-ratio: 1;
     border-radius: 50%;
-    /* border: 1px solid; */
   
     background-image: conic-gradient(
       from -70deg,
-      var(--c1) 45%,
+      var(--c1) 0 45%,
       var(--c2) 0 68%,
       var(--c3) 0 95%,
       var(--c4) 0
     );
   }
+
+  
 
   .legends {
     margin-block-end: 2rem;
@@ -85,7 +95,6 @@
     content: "";
     width: 0.8rem;
     aspect-ratio: 1;
-    border-radius: 50%;
   }
   
   .legends span:nth-child(1)::before {
